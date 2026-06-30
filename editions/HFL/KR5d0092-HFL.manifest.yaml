@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0092/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5d0092/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上陽子金丹大要列仙誌
+  date: '2015-08-29 02:04:59.373818'
+  source:
+    repository: kanripo
+    path: KR5d0092
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0092_000-HFL.yaml, hash: 'sha256:be8b4cb675a53edaf56e3ce3192f189c527b085af33bb6661b035f0fe1e783e4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0092_000-HFL.markers.yaml, hash: 'sha256:6990adc859a969d2e00eff7ea7fff20cee8b6988be0a5d5ffcc013f7f095b0f8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0092_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2302
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:298c5c2a0e384571ba723f76bd409838e714c4d1e15ffea4ff000c5069e17c20
